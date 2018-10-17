@@ -26,4 +26,5 @@ samtools mpileup -u --region chr1A:1-20000000 -f chr1A.fsa jm20.1A.bam nd.1A.bam
 bcftools call -m all.bcf > all.called.bcf
 
 ```
+[samtools参数](http://www.htslib.org/doc/samtools-1.2.html)
 -----------------------------
