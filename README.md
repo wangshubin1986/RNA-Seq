@@ -23,6 +23,7 @@ samtools fdx chr1A.fst
 ### SNP分析
 ```
 samtools mpileup -u --region chr1A:1-20000000 -f chr1A.fsa jm20.1A.bam nd.1A.bam > all.bcf
+bcftools call -m all.bcf > all.called.bcf
 
-
+```
 -----------------------------
