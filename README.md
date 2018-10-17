@@ -27,4 +27,5 @@ bcftools call -m all.bcf > all.called.bcf
 
 ```
 [samtools参数](http://www.htslib.org/doc/samtools-1.2.html)
+
 -----------------------------
