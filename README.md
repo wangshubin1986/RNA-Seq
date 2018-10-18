@@ -1,15 +1,15 @@
 # 基于RNA-Seq的种间遗传变异挖掘
 
-* GWAS初步定位Hg基因（麸皮绒毛）于chr1A：0-20,000,000区间。拟进一步通过济麦20和农大3432 F2群体对Hg基因进行图为克隆。  
+* GWAS初步定位Hg基因（麸皮绒毛）于chr1A:0-20,000,000区间。拟进一步通过济麦20和农大3432 F2群体对Hg基因进行图为克隆。  
 * 本部分，通过RNA-Seq（幼穗）挖掘济麦20和农大3432种间遗传和表达变异。
 
 ----
 
 ## 文件提取
 
-华大测序已返回序列匹配文件（.bam）， 并且已对bam文件进行了排序， 可以直接用于后续分析。 文件较大，无法在个人电脑上完成分析，所以首先将目标染色体（chr1A）相关匹配提取出来。
+华大测序已返回序列匹配文件（.bam），并且已对bam文件进行了排序，可以直接用于后续分析。文件较大，无法在个人电脑上完成分析，所以首先将目标染色体（chr1A）相关匹配提取出来。
 
-* 下载小麦chr1A.fsa
+* 下载小麦chr1A.fsa  
 [https://urgi.versailles.inra.fr/download/iwgsc/IWGSC_RefSeq_Assemblies/v1.0/](https://urgi.versailles.inra.fr/download/iwgsc/IWGSC_RefSeq_Assemblies/v1.0/)
 
 * 济麦20和农大3432RNA-Seq数据中chr1A上的匹配
@@ -49,7 +49,8 @@ grep -v '\.\/\.' |less
 
 ----
 
-## CAPs和dCAPs标记开发
+
+## 基于酶切的遗传标记开发
 
 * 举例：
 
@@ -69,7 +70,16 @@ GCGATTGTCGGGGTGGTCCAGCTGTCTAAGCAGCAGCTTCC
 
 * CAPs/dCAPs鉴定
 
+
+
+* 遗传标记开发
+
+
 ## 使用已开发的CPAs或dCAPs标记
+
+
+
+
 
 
 
