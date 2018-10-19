@@ -53,12 +53,12 @@ DP=144，表明reads覆盖度较高。MQ=60表明覆盖该SNP的reads更多的�
 * 提取该区域序列（SNP左右各20bp）
 samtools faidx chr1A.fsa chr1A:chr1A:1159496-1159536
 
->jm20
-GCGATTGTCGGGGTGGTCCAACTGTCTAAGCAGCAGCTTCC
->nd
+>jm20  
+GCGATTGTCGGGGTGGTCCAACTGTCTAAGCAGCAGCTTCC  
+>nd  
 GCGATTGTCGGGGTGGTCCAGCTGTCTAAGCAGCAGCTTCC
 
-* CAPs/dCAPs鉴定
+* CAPs/dCAPs鉴定  
 [http://helix.wustl.edu/dcaps/](http://helix.wustl.edu/dcaps/)  
 [http://223.65.208.206:8018/](http://223.65.208.206:8018/)  
 网站2直接给出引物，不建议直接使用，该引物未考虑扩增的特异性。
