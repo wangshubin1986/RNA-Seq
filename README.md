@@ -63,17 +63,19 @@ GCGATTGTCGGGGTGGTCCAGCTGTCTAAGCAGCAGCTTCC
 [http://223.65.208.206:8018/](http://223.65.208.206:8018/)  
 网站2直接给出引物，不建议直接使用，该引物未考虑扩增的特异性。
 
-* 标记开发
-** 有CAPS先用CAPS
-**
-
-
-
-
-
+* 标记开发和使用
+1. 2%琼脂糖TAE电泳，条带差异不易分辨时，4%琼脂糖TBE电泳；
+2. PCR体系20-30ul，扩增后直接加酶和buffer消化；
+3. 扩增产物～250bp，酶切一侧引物～40bp，另一侧随意。切割下来的小片段长度至少占到总扩增长度的10%跑琼脂糖才能明显区分。
+4. 选常用酶，且扩增产物包含单一酶切位点；
+5. 酶切一侧引物相对固定，另一侧引物设计师考虑扩增特异性，blast参考基因组。
+---
 
 ## 使用已开发的CPAs或dCAPs标记
-
+小麦820k和660k芯片SNP酶切标记  
+Li et al. (2018) CAPS/dCAPS Designer: a web-based high-throughput dCAPS marker design tool.  
+[ https://doi.org/10.1007/s11427-017-9286-y]( https://doi.org/10.1007/s11427-017-9286-y)  
+不建议直接使用，未考虑引物特异性。
 
 
 
